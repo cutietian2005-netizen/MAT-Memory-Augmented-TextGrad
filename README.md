@@ -93,16 +93,16 @@ After the run finishes, you will see a final comparison like:
 📈 测试阶段最终对比
 ======================================================================
 VANILLA:
+  准确率: 25/30 (83.3%)
+  平均迭代次数: 0.60
+  平均 API 调用: 2.80
+  平均耗时 (秒): 31.75
+
+MAT:
   准确率: 26/30 (86.7%)
   平均迭代次数: 0.40
   平均 API 调用: 2.20
-  平均耗时 (秒): 28.22
-
-MAT:
-  准确率: 25/30 (83.3%)
-  平均迭代次数: 0.43
-  平均 API 调用: 2.30
-  平均耗时 (秒): 27.25
+  平均耗时 (秒): 22.94
 ```
 
 You can also inspect `phase2_test_results.json` for per-question details and `comparison_plot.png` for a visual summary.
